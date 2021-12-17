@@ -1,0 +1,32 @@
+.colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fields{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cep{
+    width: 35%;
+    height: 20px;
+}
+
+.button{
+    width: 36%;
+    height: 30px;
+}
+
+#response{
+    width: 35%;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: #ff000030;
+}

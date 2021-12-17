@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Platform - Test</title>
+</head>
+
+<body>
+    <div class="colum"> 
+        <div class="fields">
+            <input id="cep" class="cep" type="text" maxlength="9" placeholder="Digite o CEP">
+            <button class="button" onclick="searchCep(cep.value)">Buscar</button>
+        </div>
+        <div id="response">
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    $(".cep").mask("00000-000");
+</script>
